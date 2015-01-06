@@ -1,0 +1,25 @@
+body {
+  font-family: 'Helvetica Neue';
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+p {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.hero-unit {
+  text-align: center;
+  background-color: #333;
+  width: 80%;
+  max-width: 960px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
