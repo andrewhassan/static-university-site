@@ -25,3 +25,21 @@ p {
   border-radius: 5px;
   margin: 0 auto;
 }
+
+.vertical-center-container {
+  text-align: center;
+}
+
+.vertical-center-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+ }
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 15px;
+ }
