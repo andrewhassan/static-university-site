@@ -50,6 +50,7 @@
     // In case some loser is viewing this after IRC
     if (IRON_RING_CEREMONY_UNIX_TIME < currentTimestamp) {
       setCountdownString('The Iron Ring Ceremony has passed');
+      document.getElementById('post-countdown-text').innerHTML = '';
       return;
     }
 
